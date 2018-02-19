@@ -105,10 +105,12 @@ def play(board)
   
 until over?(board)
 turn(board)
+end
 if draw?(board)
   return "Cat"
+end
   if won?(board)
-    return "Congraulations you won!"
+    return "Congraulations ${`current_player`} won!"
 end
 end
 end
