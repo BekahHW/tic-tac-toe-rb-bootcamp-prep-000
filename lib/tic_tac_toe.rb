@@ -103,4 +103,5 @@ end
 
 def play(board)
   
+else over?(board)
 end
