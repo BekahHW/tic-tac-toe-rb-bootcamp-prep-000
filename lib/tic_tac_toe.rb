@@ -110,7 +110,7 @@ if draw?(board)
   puts "Cat"
 end
   if won?(board)
-    puts "Congraulations ${winner(board)} won!"
+    puts "Congraulations ${winner(board)}"
 end
 end
 end
