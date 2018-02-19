@@ -107,10 +107,10 @@ until over?(board)
 turn(board)
 end
 if draw?(board)
-  return "Cat"
+  puts "Cat"
 end
   if won?(board)
-    return "Congraulations ${`current_player`} won!"
+    puts "Congraulations ${winner(board)} won!"
 end
 end
 end
