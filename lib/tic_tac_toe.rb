@@ -106,11 +106,10 @@ def play(board)
 until over?(board)
 turn(board)
 end
-if draw?(board)
-  puts "Cat"
-end
+
   if won?(board)
     puts "Congraulations ${winner(board)}"
-end
+    elsif draw?(board)
+  puts "Cat"
 end
 end
