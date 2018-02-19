@@ -103,5 +103,12 @@ end
 
 def play(board)
   
-else over?(board)
+until over?(board)
+turn(board)
+if draw?(board)
+  return "Cat"
+  if won?(board)
+    return "Congraulations you won!"
+end
+end
 end
