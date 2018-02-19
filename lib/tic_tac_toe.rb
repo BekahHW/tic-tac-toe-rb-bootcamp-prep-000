@@ -108,7 +108,7 @@ turn(board)
 end
 
   if won?(board)
-    puts "Congraulations ${winner(board)}"
+    puts "Congraulations ${winner(board)}!"
     elsif draw?(board)
   puts "Cat"
 end
